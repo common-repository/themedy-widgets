@@ -1,0 +1,28 @@
+/* Custom Widgets
+------------------------------------------------------------ */
+
+.themedy_ad_widget ul {
+	padding: 0;
+	margin: 0;
+}
+
+.themedy_ad_widget .ads-125 {
+	width: 310px;
+}
+
+.themedy_ad_widget ul li {
+	float: left;
+	list-style: none;
+	height: 145px;
+	margin: 0 10px 10px 0;
+	width: 145px;
+}
+
+.themedy_ad_widget ul li img {
+	padding: 10px;
+	background: url(../images/bg-line.png);
+}
+
+.themedy_ad_widget ul li img:hover {
+	background: #ddd;
+}

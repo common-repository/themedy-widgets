@@ -1,0 +1,193 @@
+/* Custom Widgets
+------------------------------------------------------------ */
+
+.themedy_ad_widget ul {
+	padding: 0;
+	margin: 0;
+}
+
+.themedy_ad_widget .ads-125 {
+	width: 310px;
+}
+
+.themedy_ad_widget ul li {
+	float: left;
+	list-style: none;
+	height: 145px;
+	margin: 0 10px 10px 0;
+	width: 145px;
+}
+
+.themedy_ad_widget ul li img {
+	padding: 10px;
+	background: url(../images/bg-line.png);
+}
+
+.themedy_ad_widget ul li img:hover {
+	background: #ddd;
+}
+
+.idTabs ul {
+	margin: 0;
+	padding: 0;
+}
+
+#tab-items {
+	height: 40px;
+	background: url(../images/bg-line.png);
+}
+
+.idTabs .alignleft { 
+	width: 60px; 
+}
+
+.idTabs #tab-items li {
+	float: left;
+	list-style: none;
+}
+
+.idTabs #tab-items li a {
+	line-height: 40px;
+	padding: 0 10px;
+	display: block;
+	color: #a4a4a4;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #fff;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.idTabs #tab-items li a:hover {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+.idTabs #tab-items li a.selected {
+	background: url(../images/bf-tabactive.png) repeat-x top #fff;;
+	border: 1px solid #dbdbdb;
+	color: #4d4d4d;
+	border-bottom: none;
+}
+
+.idTabs .tabs-inner {
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	padding: 20px 20px 0 20px;
+}
+
+.tabs-inner .tab-tags {
+	padding-bottom: 20px;
+}
+
+.idTabs .tab li {
+	padding-bottom: 16px;
+	margin-bottom: 15px;
+	background: url(../images/bg-dotted.png) repeat-x bottom;
+}
+
+.idTabs .tab h3 {
+	margin-bottom: 5px;
+}
+
+.idTabs .tab h3 a,
+.idTabs .tab h3 a:visited {
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 20px;
+	color: #000;
+}
+
+.idTabs .tab h3 a:hover {
+	color: #e84866;
+	text-decoration: none;
+}
+
+.widget .post-info {
+	margin: 0;
+}
+
+.widget-comment a {
+	color: #aaa;
+}
+
+.post-widget {
+	margin-top: 30px;
+}
+
+.related-posts li {
+	margin-bottom: 10px;
+	padding-bottom: 11px;
+	background: url(../images/bg-dotted.png) repeat-x bottom;
+	clear: both;
+}
+
+.related-posts {
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.related-posts li a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	line-height: 20px;
+}
+
+.related-posts li a:hover {
+	color: #e84866;
+	text-decoration: none;
+}
+
+.latest-tweets ul {
+	margin: 0;
+}
+
+.latest-tweets ul li {
+	list-style: none;
+	padding-left: 40px;
+	background: url(../images/icon-smallquotes.png) 0 5px no-repeat;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.latest-tweets ul li.last {
+	background: none;
+	padding: 0;
+	border: none;
+	margin: 0;
+	font-weight: bold;
+}
+
+.latest-tweets h4.widgettitle {
+	margin-bottom: 15px;
+}
+
+.tab-tags a {
+	font-weight: bold;
+	margin: 0 10px 5px 0;
+	font-style: italic;
+}
+
+.fade { width:300px; margin:20px auto; background:#EEE; padding:12px; overflow:hidden; }
+.fade .tabs { float:left; overflow:auto; }
+.fade .tabs li {
+  float:left; list-style:none; border:1px solid #444; margin:1px; -moz-border-radius:2px; }
+.fade .tabs li a { 
+  display:block; float:left; width:16px; height:16px; text-align:center; color:#000;
+  text-decoration:none; font:bold 10pt Verdana; background:#CCC; border:1px solid #FFF; }
+.fade .tabs li:hover { margin:0; border-width:2px; }
+.fade .tabs li a.selected { border-color:#444; }
+.fade .items { clear:both; padding:6px 0; position:relative; top:0; left:0; height:1em; }
+.fade .items div { display:none; position:absolute; top:0; left:0; padding-top:6px; }
+
+/* Media Queries
+------------------------------------------------------------ */
+@media only screen and (max-width: 980px) {		
+	#tab-items { height: auto; overflow: hidden; clear: both; border: 1px solid #dbdbdb; border-width: 1px 1px 0 1px; }
+	.idTabs #tab-items li { float: none; width: 100%; }
+	.idTabs #tab-items li a.selected { border: 1px solid #dbdbdb; border-width: 1px 0; }
+}
